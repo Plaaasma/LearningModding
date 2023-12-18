@@ -16,7 +16,6 @@ public class ModSurfaceRules {
                         SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, ORANGE_TERRACOTTA)),
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.TEST_BIOME),
                         SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, BLUE_TERRACOTTA))
-
         );
     }
 
